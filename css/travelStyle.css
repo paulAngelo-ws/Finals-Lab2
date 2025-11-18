@@ -1,0 +1,85 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #90A955;
+    color: #ECF39E;
+}
+
+h1, h2{
+    font-family: Georgia;
+}
+
+p {
+    font-family: Verdana;
+}
+
+header {
+    background-color: #31572C;
+    text-align: center;
+    padding: 10px;
+    font-size: 22px;
+}
+
+nav {
+    background-color: #4F772D;
+    text-align: center;
+    height: 100%;
+}
+
+nav a {
+    text-decoration: none;
+    margin-left: 5px;
+    margin-right: 10px;
+    color: #ECF39E;
+    font-size: 22px;
+}
+
+nav a:hover {
+    background-color: #31572C;
+    color: #ECF39E;
+    text-decoration: underline;
+}
+
+nav a:visited {
+    text-decoration: none;
+    color: #ECF39E;
+}
+
+main section {
+    background-color: #4F772D;
+    width: 90%;
+    margin: auto;
+    border: 1px solid black;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    padding: 10px;
+}
+
+main section h2 {
+    font-size: 28px;
+    color: #ECF39E;
+}
+
+main section p {
+    font-size: 18px;
+    margin-left: 1%;
+}
+
+main #attractions ul li {
+    list-style: none;
+    font-size: 18px;
+    margin-left: 1%;
+}
+
+main section p a {
+    text-decoration: underline;
+    color: #ECF39E;
+}
+
+footer {
+    background-color: #4F772D;
+    text-align: center;
+}
